@@ -36,5 +36,7 @@ Seu projeto será avaliado de acordo com a qualidade do código enviado, organiz
 2. Implemente o projeto em seu próprio fork;
 3. Conclua e suba os arquivos para o seu repositório no Github;
 4. Envie um e-mail para dev@renovedigital.com.br e nos informe a url do seu fork.
+ 
+_obs: Não se preocupe isso é apenas um teste, não usaremos seu código para uso comercial!_
 
 _Um até logo e boa sorte!_
