@@ -1,4 +1,4 @@
-<img src="https://renovedigital.com.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/07/logo-renove.png.webp" alt="Renove digital" width="120"/>
+<img src="https://renovedigital.com.br/wp-content/webp-express/webp-images/uploads/2021/01/Prancheta-2@4x-1536x444.png.webp" alt="Renove digital" width="120"/>
 
 
 # Teste para desenvolvedor web
