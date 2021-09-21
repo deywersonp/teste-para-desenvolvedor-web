@@ -14,11 +14,14 @@ html {
   --grey-dark: #707070;
   --white: #FFFFFF;
   --blue: #4583D5;
+  --green: #00A650;
 
   font-size: 62.5%;
   font-family: 'Segoe UI', sans-serif;
+}
 
-  background-color: var(--grey);
+::placeholder {
+  color: #989898;
 }
 
 .sr-only {

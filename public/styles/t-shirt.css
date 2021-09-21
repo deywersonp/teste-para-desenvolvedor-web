@@ -68,6 +68,10 @@ header .header-main-content > input {
   background-position: 97% center;
 }
 
+header .header-main-content > input::placeholder{
+  font-size: 1.5rem;
+}
+
 header .header-main-content > div {
   display: flex;
   align-items: center;
@@ -146,7 +150,7 @@ main .main-container {
 }
 
 main .main-container .main-content-header{
-  padding: 2.8rem 0 2.8rem 0;
+  margin: 2.8rem 0 2.8rem 0;
 }
 
 main .main-container .main-content-header button {
@@ -171,6 +175,119 @@ main .main-container .main-content-header span {
   padding: 0 1rem 0 1rem;
 }
 
+main .main-container .main-content {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  padding-bottom: 8.5rem;
+
+  box-sizing: border-box;
+}
+
+main .main-container .main-content > img {
+  width: 44.8rem;
+  height: 41.1rem;
+}
+
+main .main-container .main-content section.main-info {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 3.5rem;
+  padding-right: 2rem;
+
+  box-sizing: border-box;
+}
+
+main .main-container .main-content section.main-info > :first-child {
+  color: white;
+  width: 13rem;
+
+  padding: 0 .5rem 0 .5rem;
+  margin-bottom: 2rem;
+
+  border-radius: .4rem;
+
+  background-color: var(--green);
+}
+
+main .main-container .main-content section.main-info > :nth-child(2) {
+  color: var(--grey-dark);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main .main-container .main-content section.main-info > :nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: .5rem;  
+  margin-bottom: 3.5rem;
+}
+
+main .main-container .main-content section.main-info > :nth-child(3) img {
+  width: 10rem;
+  height: 2.2rem;
+
+  transform: translateX(-5%);
+}
+
+main .main-container .main-content section.main-info > :nth-child(3) a {
+  color: var(--blue);
+  font-size: 1.3rem;
+
+  text-decoration: underline;
+}
+
+main .main-container .main-content section.main-info > :nth-child(4) {
+  color: var(--grey-dark);
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+
+main .main-container .main-content section.main-info > :nth-child(5) {
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+
+  color: var(--grey-dark);
+  font-size: 1.3rem;
+  
+  text-decoration: underline;
+}
+
+main .main-container .main-content section.main-info > :nth-child(6) {
+  color: var(--grey-dark);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+  
+main .main-container .main-content section.main-info > :nth-child(7) {
+  height: 3.7rem;
+
+  padding-left: 1.8rem;
+  margin-top: .8rem;
+
+  border: .1rem solid #D6D6D6;
+  border-radius: .4rem;
+}
+
+main .main-container .main-content section.main-info > :nth-child(7)::placeholder {
+  font-size: 1.3rem;
+}
+
+main .main-container .main-content section.main-info .share-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+main .main-container .main-content section.main-info .share-content span {
+  font-size: 1.3rem;
+  color: var(--grey-dark);
+  font-weight: bold;
+
+  margin-top: 3.1rem;
+}
 
 /********** RODAPÉ **********/
 footer {
