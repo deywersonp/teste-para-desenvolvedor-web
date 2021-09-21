@@ -1,6 +1,7 @@
 header {
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   width: 100vw;
   height: 16.6rem;
@@ -21,7 +22,7 @@ header .header-top {
 
 header .header-top > div {
   display: flex;
-  width: 90%;
+  width: 85%;
   align-items: center;
   justify-content: space-between;
 
@@ -34,14 +35,97 @@ header .header-top .header-top-content :nth-child(1) {
 }
 
 
-header .header-main-content,
-header .header-bottom,
-header .header-bottom nav {
+header .header-main-content {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  width: 90%;
+  width: 85%;
+}
+
+header .header-main-content {
+  justify-content: space-evenly;
+  margin-top: 2.6rem;
+}
+
+header .header-main-content > img {
+  width: 17.7rem;
+  height: 4.1rem;
+}
+
+header .header-main-content > input {
+  width: 62.6rem;
+  height: 4.9rem;
+
+  margin: 0 10rem 0 12rem;
+
+  padding: 0 6rem 0 5rem;
+
+  border-radius: .5rem;
+
+  background: var(--white) url('../images/lupa.svg') no-repeat;
+  background-position: 97% center;
+}
+
+header .header-main-content > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .header-main-content > div > span {
+  font-size: 1.5rem;
+  color: var(--white);
+  padding-right: 2rem;
+}
+
+header .header-bottom {
+  margin-top: 1.5rem;
+  
+  display: flex;
+
+  width: 85%;
+}
+
+header .header-bottom nav {
+  display: flex;
+  align-items: center;
+}
+
+header .header-bottom nav a {
+  font-size: 1.5rem;
+  color: var(--white);
+  text-decoration: underline;
+}
+
+header .header-bottom button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 12rem;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--white); 
+  background-color: var(--pink-light);
+}
+
+header .header-bottom button :first-child {
+  width: 1.3rem;
+
+  margin-right: .5rem;
+}
+
+header .header-bottom button :last-child {
+  width: 2.9rem;
+  transform: translateY(5%);
 }
 
 
+header .header-bottom nav div {
+  width: 62.6rem;
+
+  display: flex;
+  justify-content: space-around;
+}
