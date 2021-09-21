@@ -109,6 +109,8 @@ header .header-bottom button{
   font-weight: bold;
   color: var(--white); 
   background-color: var(--pink-light);
+
+  overflow: hidden;
 }
 
 header .header-bottom button :first-child {
@@ -128,4 +130,63 @@ header .header-bottom nav div {
 
   display: flex;
   justify-content: space-around;
+}
+
+footer {
+  width: 100vw;
+  height: 46.9rem;
+
+  background-color: var(--pink-light);
+}
+
+footer .footer-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--pink);
+}
+
+footer .footer-top-container .footer-top {
+  width: 70%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 8.6rem; 
+  background-color: var(--pink);
+}
+
+footer .footer-top-container .footer-top > div {
+  display: flex;
+}
+
+footer .footer-top-container .footer-top div img {
+  width: 3.62rem; 
+  height: 2.94rem;
+
+  margin-right: 1.2rem;
+}
+
+footer .footer-top-container .footer-top .footer-text-box :first-child {
+  display: block;
+
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+footer .footer-top-container .footer-top .footer-text-box :last-child {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 1.2rem;
+  color: var(--white);
+}
+
+footer .footer-bottom {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 1.2rem;
+  color: var(--white);
 }
