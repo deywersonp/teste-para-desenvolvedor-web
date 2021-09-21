@@ -10,8 +10,10 @@
 html {
   --pink: #FF7D7D;
   --pink-light: #FE9393;
-  --grey: ##EEEEEE;
+  --grey: #EEEEEE;
+  --grey-dark: #707070;
   --white: #FFFFFF;
+  --blue: #4583D5;
 
   font-size: 62.5%;
   font-family: 'Segoe UI', sans-serif;
