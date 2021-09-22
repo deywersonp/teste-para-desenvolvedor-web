@@ -1,7 +1,7 @@
 /********** CABEÇALHO **********/
-/* header .mobile-header {
+header .mobile-header {
   display: none;
-} */
+}
 
 header {
   display: flex;
@@ -545,6 +545,10 @@ footer .footer-bottom {
 }
 
 @media screen AND (max-width: 425px) {
+  header .mobile-header {
+    display: block;
+  }
+
   header .header-top {
     display: none;
   }
@@ -561,14 +565,14 @@ footer .footer-bottom {
     height: 11.1rem;
   }
 
-  .mobile-header {
+  header .mobile-header {
     width: 100%;
     padding: 2rem;
     padding-top: 2rem;
     overflow: hidden;
   }
 
-  .mobile-header .mobile-header-top {
+  header .mobile-header .mobile-header-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -696,5 +700,4 @@ footer .footer-bottom {
     font-size: 1rem;
     padding: 0 .5rem 2rem .5rem;
   }
-
 }
