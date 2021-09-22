@@ -1,0 +1,81 @@
+html.disabled,
+body.disabled {
+  overflow-y: hidden; 
+}
+
+div#kart-modal.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+div#kart-modal {
+  width: 98%;
+  height: 98%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  position: absolute;
+  left: 1%;
+  top: 1%;
+
+  visibility: hidden;
+  opacity: 0;
+
+  background-color: var(--white);
+}
+
+div#kart-modal > button {
+  padding: 3rem;
+  margin-left: calc(100% - 5%);
+
+  line-height: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  background-color: transparent;
+}
+
+div#kart-modal .kart-modal-container {
+  width: 75%;
+  height: 80vh;
+}
+
+div#kart-modal .kart-modal-container h2 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+div#kart-modal .kart-modal-container div {
+  display: flex;
+  align-items: center;
+  
+  margin-bottom: 2rem;
+}
+
+div#kart-modal .kart-modal-container div img {
+  width: 5rem;
+}
+
+div#kart-modal .kart-modal-container div p {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+div#kart-modal .kart-modal-container div span {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+div#kart-modal .kart-modal-container div button {
+  font-size: 1.5rem;
+  color: var(--white);
+
+  margin-left: 2rem;
+  padding: 1rem;
+
+  background-color: rgb(226, 107, 107);
+
+  border-radius: .5rem;
+}

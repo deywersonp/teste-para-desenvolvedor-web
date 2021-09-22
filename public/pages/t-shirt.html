@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="../styles/global.css">
   <link rel="stylesheet" href="../styles/t-shirt.css">
+  <link rel="stylesheet" href="../styles/kart-modal.css">
 
   <title>Bem Menininha :: Camisetas</title>
 </head>
@@ -156,7 +157,7 @@
           </div>
 
           <button class="buy-now">Comprar agora</button>
-          <button class="add-to-bag">Adicionar a sacola</button>
+          <button onclick="addToKart()" class="add-to-bag">Adicionar a sacola</button>
 
           <div class="separator"></div>
 
@@ -225,8 +226,6 @@
         </div>
       </div>
 
-
-
       <div class="mobile-product-description">
         <h2>DESCRIÇÃO DO PRODUTO</h2>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -238,7 +237,7 @@
 
       <div class="mobile-main-buttons">
         <button>Comprar agora</button>
-        <button>Adicionar a sacola</button>
+        <button onclick="addToKart()">Adicionar a sacola</button>
       </div>
     </div>
 
@@ -368,9 +367,9 @@
     <!---------------- MODAL ------------------->
     <div id="kart-modal">
       <button onclick="closeKart()">X</button>
-      <div>
-        <img src="" alt="">
-        <span>R$ 356,00</span>
+      <div class="kart-modal-container">
+        <h2>Seu Carrinho</h2>
+
       </div>
     </div>
 
