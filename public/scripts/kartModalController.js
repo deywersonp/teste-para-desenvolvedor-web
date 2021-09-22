@@ -11,9 +11,6 @@ function currentId() {
 }
 
 function addToKart() {
-
-  console.log(currentId());
-
   let imgSource = document.querySelector('.main-content img');
   let productName = document.querySelector('.main-info h2');
   let productPrice = document.querySelector('.secondary-info .price-second-paragraph');
@@ -57,6 +54,6 @@ function closeKart() {
 function removeProduct(event) {
   let buttonClass = event.currentTarget.classList[0];
   let product = document.querySelector(`.product-${buttonClass}`)
-  console.log(product);
+
   kartModalContainer.removeChild(product);
 }
