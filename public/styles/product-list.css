@@ -179,7 +179,7 @@ main .main-container .products img {
   margin-bottom: 3rem;
 }
 
-main .main-container .products :nth-child(5n) {
+main .main-container .products :nth-child(6n) {
   margin-right: 0;
 }
 
@@ -373,6 +373,8 @@ footer .footer-bottom {
 
 /*********** MEDIA SCREENS ***********/
 @media screen AND (max-width: 1024px) {
+
+  /*** CABEÇALHO ***/
   header .header-main-content > input {
     width: 50rem;
   }
@@ -391,6 +393,31 @@ footer .footer-bottom {
     width: 40rem;
   }
 
+  /*** CONTEÚDO PRINCIPAL ***/
+
+  main .main-container h1 {
+    font-size: 3rem;
+  }
+
+  main .main-container .products {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  main .main-container .products img {
+    width: 20rem;
+  }
+
+  main .main-container .products :nth-child(4n) {
+    margin-right: 0;
+  }
+
+  main .main-container .products :nth-child(6n) {
+    margin-right: 4rem;
+  }
+
+  /*** FOOTER ***/
   footer .footer-top-container .footer-top {
     width: 85%;
   }
@@ -401,6 +428,8 @@ footer .footer-bottom {
 }
 
 @media screen AND (max-width: 768px) {
+
+    /*** CABEÇALHO ***/
   header .header-main-content > input {
     width: 40rem;
     
@@ -411,7 +440,8 @@ footer .footer-bottom {
     width: 40rem;
     margin-left: -5rem;
   }
-  
+
+    /*** RODAPÉ ***/
   footer .footer-top-container .footer-top div img {
     width: 2.62rem; 
     height: 1.94rem;
@@ -545,6 +575,8 @@ footer .footer-bottom {
 }
 
 @media screen AND (max-width: 425px) {
+  
+  /*** CABEÇALHO ***/
   header .mobile-header {
     display: block;
   }
@@ -618,6 +650,13 @@ footer .footer-bottom {
     margin-top: .5rem;
   }
 
+    /*** CONTEÚDO PRINCIPAL ***/
+
+
+  
+
+
+    /*** RODAPÉ ***/
   footer {
     height: auto;
   }
