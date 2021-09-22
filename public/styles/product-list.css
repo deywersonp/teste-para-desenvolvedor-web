@@ -400,8 +400,6 @@ footer .footer-bottom {
   }
 
   main .main-container .products {
-    width: 95%;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
@@ -650,13 +648,35 @@ footer .footer-bottom {
     margin-top: .5rem;
   }
 
-    /*** CONTEÚDO PRINCIPAL ***/
+  /*** CONTEÚDO PRINCIPAL ***/
+   
+  main .main-container {
+    width: 21rem;
+  }
+
+  main .main-container h1 {
+    font-size: 2rem;
+  }
+
+  main .main-container .products {
+    grid-template-columns: 1fr;
+  }
+
+  main .main-container .products img {
+    width: 20rem;
+    margin-right: 0;
+  }
+
+  main .main-container .products :nth-child(4n) {
+    margin-right: 0;
+  }
+
+  main .main-container .products :nth-child(6n) {
+    margin-right: 0;
+  }
 
 
-  
-
-
-    /*** RODAPÉ ***/
+  /*** RODAPÉ ***/
   footer {
     height: auto;
   }
