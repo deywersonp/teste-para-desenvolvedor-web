@@ -30,7 +30,7 @@
       <input id="search-your-product" type="text" placeholder="Busque aqui o seu produto...">
       <div>
         <span>Olá, <strong>Carlos.</strong></span>
-        <img src="../images/shop-car.svg" alt="Carrinho de compras">
+        <img onclick="showKart()" src=" ../images/shop-car.svg" alt="Carrinho de compras">
       </div>
     </div>
 
@@ -51,11 +51,13 @@
 
     <div class="mobile-header">
       <div class="mobile-header-top">
-        <img src="../images/menu.svg" alt="Menu">
+        <button onclick="openMenu()">
+          <img src="../images/menu.svg" alt="Menu">
+        </button>
         <img src="../images/logo.svg" alt="Bem Menininha - Logo">
         <div>
           <span>Olá, <strong>Carlos.</strong></span>
-          <img src="../images/mobile-kart.svg" alt="Carrinho de compras">
+          <img onclick="showKart()" src="../images/mobile-kart.svg" alt="Carrinho de compras">
         </div>
       </div>
 
@@ -289,7 +291,7 @@
 
       <div class="footer-main-content">
         <div class="department">
-          <h3>Departamento</h3>
+          <h3 id="department">Departamento</h3>
           <div class="department-text-container">
             <div>
               <a href="#">Beleza e Perfumaria</a>
@@ -307,7 +309,7 @@
         </div>
 
         <div class="institutional">
-          <h3>Institucional</h3>
+          <h3 id="institutional">Institucional</h3>
           <div>
             <a href="#">Quem Somos</a>
             <a href="#">Contato</a>
@@ -317,7 +319,7 @@
         </div>
 
         <div class="social-medias">
-          <h3>Redes Sociais</h3>
+          <h3 id="social-medias">Redes Sociais</h3>
 
           <div>
             <a href="#">
@@ -334,7 +336,7 @@
         </div>
 
         <div class="help-center">
-          <h3>Central de Ajuda</h3>
+          <h3 id="help-center">Central de Ajuda</h3>
           <div>
             <span>Praia Grande - SP</span>
             <span>(13) 98882-9281</span>
@@ -352,7 +354,30 @@
         Grande -
         São Paulo, BR</span>
     </div>
+
+
+    <!---------------- MENU ------------------->
+    <div id="mobile-menu">
+      <button onclick="closeMenu()">X</button>
+      <a onclick="closeMenu()" href="#department">Departamento</a>
+      <a onclick="closeMenu()" href="#institutional">Institucional</a>
+      <a onclick="closeMenu()" href="#social-medias">Redes Sociais</a>
+      <a onclick="closeMenu()" href="#help-center">Central de Ajuda</a>
+    </div>
+
+    <!---------------- MODAL ------------------->
+    <div id="kart-modal">
+      <button onclick="closeKart()">X</button>
+      <div>
+        <img src="" alt="">
+        <span>R$ 356,00</span>
+      </div>
+    </div>
+
   </footer>
+
+  <script src="../scripts/kartModalController.js"></script>
+  <script src="../scripts/menuController.js"></script>
 </body>
 
 </html>

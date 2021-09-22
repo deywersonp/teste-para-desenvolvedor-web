@@ -1,5 +1,4 @@
 let productList = document.querySelector('.products');
-console.log(productList);
 
 let finish = 10;
 

@@ -7,6 +7,17 @@ main .mobile-main-container {
   display: none;
 }
 
+div#mobile-menu {
+  visibility: hidden;
+  opacity: 0;
+}
+
+div#mobile-menu.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
 header {
   display: flex;
   flex-direction: column;
@@ -710,7 +721,7 @@ footer .footer-bottom {
     color: var(--blue);
     text-decoration: underline;
   }
-  
+
   main .mobile-main-container .mobile-prices-container .price-first-paragraph {
     font-size: 1.5rem;
     color: var(--grey-dark);
@@ -1064,6 +1075,10 @@ footer .footer-bottom {
     justify-content: space-between;
   }
 
+  header .mobile-header .mobile-header-top button {
+    background-color: transparent;
+  }
+
   .mobile-header .mobile-header-top div {
     display: flex;
     align-items: center;
@@ -1387,5 +1402,41 @@ footer .footer-bottom {
   footer .footer-bottom {
     font-size: 1rem;
     padding: 0 .5rem 2rem .5rem;
+  }
+
+  div#mobile-menu {
+    width: 95%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    top: 2%;
+    left: 2.5%;
+    background-color: var(--pink);
+
+    z-index: 2;
+
+    overflow: hidden;
+  }
+
+  div#mobile-menu button {
+    padding: 2rem;
+    margin-left: calc(100% - 20%);
+
+    line-height: 0;
+
+    font-size: 1.5rem;
+
+    background-color: transparent;
+  }
+
+  div#mobile-menu a {
+    font-size: 2rem;
+    padding: 1rem;
+
+    color: var(--grey-dark);
   }
 }
