@@ -1,4 +1,8 @@
 /********** CABEÇALHO **********/
+/* header .mobile-header {
+  display: none;
+} */
+
 header {
   display: flex;
   flex-direction: column;
@@ -537,5 +541,76 @@ footer .footer-bottom {
 
   footer .footer-main .footer-main-content .help-center div :last-child {
     border-right: none;
+  }
+}
+
+@media screen AND (max-width: 320px) {
+  header .header-top {
+    display: none;
+  }
+
+  header .header-main-content {
+    display: none;
+  }
+
+  header .header-bottom {
+    display: none;
+  }
+
+  header {
+    height: 11.1rem;
+  }
+
+  .mobile-header {
+    width: 100%;
+    padding: 2rem;
+    padding-top: 2rem;
+    overflow: hidden;
+  }
+
+  .mobile-header .mobile-header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobile-header .mobile-header-top div {
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile-header .mobile-header-top div span {
+    font-size: .8rem;
+    color: var(--white);
+    margin-right: .5rem;
+  }
+
+  .mobile-header .mobile-header-middle input {
+    width: 100%;
+    height: 2.4rem;
+
+    padding-left: 2rem;
+    margin-top: 1.3rem;
+
+    background: var(--white) url('../images/lupa.svg') no-repeat;
+    background-size: 1.4rem;
+    background-position: 97% center;
+
+    border: .1rem solid #DCDCDC;
+    border-radius: 3.5rem;
+  }
+
+  .mobile-header .mobile-header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobile-header .mobile-header-bottom a {
+    color: var(--white);
+    font-size: 1rem;
+    text-decoration: underline;
+
+    margin-top: .5rem;
   }
 }
