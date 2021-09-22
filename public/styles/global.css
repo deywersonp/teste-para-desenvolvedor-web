@@ -11,6 +11,7 @@ html {
   --pink: #FF7D7D;
   --pink-light: #FE9393;
   --grey: #EEEEEE;
+  --grey-medium: #989898;
   --grey-dark: #707070;
   --white: #FFFFFF;
   --blue: #4583D5;
@@ -21,7 +22,7 @@ html {
 }
 
 ::placeholder {
-  color: #989898;
+  color: var(--grey-medium);
 }
 
 .sr-only {

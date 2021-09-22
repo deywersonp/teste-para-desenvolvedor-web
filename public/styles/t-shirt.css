@@ -289,6 +289,167 @@ main .main-container .main-content section.main-info .share-content span {
   margin-top: 3.1rem;
 }
 
+main .main-container .main-content section.secondary-info{
+  width: 29.4rem;
+  padding-left: 4rem;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+main .main-container .main-content section.secondary-info > :first-child {
+  display: flex;
+  align-items: center;
+
+  background-color: var(--pink-light);
+
+  height: 4.3rem;
+  border-radius: .3rem;
+
+  color: var(--white);
+}
+
+main .main-container .main-content section.secondary-info > :first-child img {
+  padding-left: 1.5rem;
+}
+
+main .main-container .main-content section.secondary-info > :first-child div {
+  padding-left: 1.1rem;
+}
+
+main .main-container .main-content section.secondary-info > :first-child div h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+main .main-container .main-content section.secondary-info > :first-child div p {
+  margin-top: -.3rem;
+  font-size: 1.2rem;
+
+  text-decoration: underline;
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(2) .price-first-paragraph {
+  margin-top: 1rem;
+
+  font-size: 1.5rem;
+  color: var(--grey-dark);
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(2) .price-first-paragraph del {
+  text-decoration: line-through;
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(2) .price-second-paragraph {
+  font-size: 3.6rem;
+  color: var(--grey-dark);
+  font-weight: bold;
+
+  margin-top: -.5rem;
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(2) .price-third-paragraph {
+  font-size: 1.2rem;
+  color: var(--grey-dark);
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(2) .price-third-paragraph .green-price {
+  color: var(--green);
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(3) {
+  padding-top: 1.5rem;
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(3) #select-size {
+  width: 10.5rem;
+  height: 2rem;
+
+  padding-left: 2.5rem;
+
+  font-size: 1.2rem;
+  color: #7E7E7E;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background: url('../images/down-arrow.svg') no-repeat;
+  background-position: 10% center;
+
+  border: 1px solid #7E7E7E;
+  border-radius: .2rem;
+
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(3) span {
+  color: var(--grey-medium);
+  padding-left: 1rem;
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(4) {
+  padding-top: 1rem;
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(4) :first-child {
+  font-weight: bold;
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(4) #select-quantity {
+  font-size: 1rem;
+
+  height: 2rem;
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(4) :last-child {
+  color: var(--grey-medium);
+}
+
+main .main-container .main-content section.secondary-info .buy-now {
+  margin-top: 1.5rem;
+  padding: 1rem 0 1rem 0;
+
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  border-radius: .4rem;
+
+  background-color: var(--pink-light);
+}
+
+main .main-container .main-content section.secondary-info .add-to-bag {
+  margin-top: .5rem;
+  padding: .7rem 0 .7rem 0;
+
+  color: var(--pink-light);
+
+
+  border: .1rem solid var(--pink-light);
+  border-radius: .4rem;
+
+  background-color: var(--white);
+
+}
+
+main .main-container .main-content section.secondary-info .separator {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+  background-color: #E3E3E3;
+  height: .1rem;
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(8) {
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+  margin-bottom: .6rem;
+}
+
+main .main-container .main-content section.secondary-info > :nth-child(8) .blue-letters{
+  color: var(--blue);
+}
+
 /********** RODAPÉ **********/
 footer {
   width: 100vw;
